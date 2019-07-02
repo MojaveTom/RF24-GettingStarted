@@ -9,6 +9,15 @@
 #include <SPI.h>
 #include "RF24.h"
 
+/********************* External User Config *****************************/
+/*******    Compile time defines; specified in platformio.ini    *******
+    CE_PIN        The pin to which RF24 CE is connected in the notation of this platform.
+    CSN_PIN       The pin to which RF24 CSN is connected in the notation of this platform.
+    RADIO_NUMBER  The "radio number" of this instance of the program.  Used to
+                    assign complementary read/write pipes.  Valid values are 0 and 1.
+
+**************************************************/
+
 /****************** User Config ***************************/
 /***      Set this radio as radio number 0 or 1         ***/
 bool radioNumber = RADIO_NUMBER;
