@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.osx": {
+			"PATH": "/Volumes/UsersData/tom/.platformio/penv/bin:/Volumes/UsersData/tom/.platformio/penv:.:/Volumes/UsersData/tom/bin:/Volumes/UsersData/tom/usr/local/bin:/Developer/Tools/Qt:/opt/local/bin:/opt/local/sbin:/usr/local/git/bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/graphviz-2.14/bin:/usr/local/mysql/bin:/Volumes/UsersData/tom/local/bin:/Volumes/UsersData/tom/Library/Python/3.7/bin",
+			"PLATFORMIO_CALLER": "vscode"
+		}
+	}
+}
